@@ -1,6 +1,6 @@
 # Performance Engine
 
-A Python-based performance tracking and metrics calculation system for educational question-answering platforms.
+A Python-based performance tracking and metrics calculation system for Virtu Educate.
 
 ## Overview
 
@@ -103,6 +103,11 @@ The system includes custom exceptions:
 - pandas: For data manipulation and analysis
 - logging: For system logging
 - dataclasses: For structured data classes
+
+## TODO 
+
+- add tests
+- Create a working version that does depend on Django ORM so that people can try it out without the dependecies 
 
 ## Requirements
 
