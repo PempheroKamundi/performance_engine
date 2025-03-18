@@ -36,6 +36,7 @@ class BaseMetric(ABC):
         """Returns the name of the metric."""
         raise NotImplementedError()
 
+    @abstractmethod
     def __call__(
         self, difficulty_groups: pd.core.groupby.GroupBy, *args, **kwargs
     ) -> Any:
