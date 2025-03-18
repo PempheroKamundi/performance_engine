@@ -49,7 +49,7 @@ class BaseMetric(ABC):
         Returns:
             objects (Any): The return type depends on the implementation detail.
         """
-        raise NotImplementedError
+        raise NotImplementedError()
 
 
 class DifficultyScoreMetric(BaseMetric):
